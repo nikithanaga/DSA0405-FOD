@@ -6,7 +6,7 @@ data_A = np.array([0.12, 0.15, 0.18, 0.2,0.22])
 data_B = np.array([0.1, 0.13, 0.16, 0.19, 0.21])
 
 
-t_statistic, p_value = stats.ttest_ind(data_A, data_B, equal_var=True)  # or equal_var=False
+t_statistic, p_value = stats.ttest_ind(data_A, data_B, equal_var=True)  
 
 
 alpha = 0.05
