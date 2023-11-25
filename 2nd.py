@@ -15,7 +15,7 @@ alpha = 0.05
 print("t-statistic:", t_statistic)
 print("p-value:", p_value)
 
-\
+
 if p_value < alpha:
     print("Reject the null hypothesis. There is a statistically significant difference.")
 else:
